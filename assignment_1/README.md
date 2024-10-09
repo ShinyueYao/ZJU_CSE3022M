@@ -21,9 +21,11 @@ python main.py
 ### 1.4 Expected Result
 During the iteration of K-Means, a PCA scatter image will be shown such as:
 ![](./asset/images/pca_scatter_plot_iteration_example.png)
+
 And each image will be saved at ``./output/iteration``
 
 Finally, the image for each cluster center will be shown:
+
 ![](./asset/images/cluster_centers_example.png)
 
 ## 2. Method
@@ -54,7 +56,9 @@ The step of this canopy algorithm is:
 4. If $D$ is less than $t_2$, then the point $P$ is belong to this cluster, and is very close to the cluster center, so we delete the point $P$ from $L$ because it has found its cluster.
 5. If $D$ is greater than $t_1$, then the point $P$ will form a new cluster
 6. Repeat untill $L$ is empty or becomes unvariable, end the loop.
+
 ![](./asset/images/canopy.png)
+
 ---
 Then, we can use canopy to roughly select $k$ cluster centers as the initial centers in K-Means.
 
