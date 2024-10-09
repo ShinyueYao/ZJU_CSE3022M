@@ -10,7 +10,7 @@ Install Pytorch on [official website](https://pytorch.org/)
 ```shell
 cd assignment_1
 
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 1.3 Run the code
