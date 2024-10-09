@@ -7,6 +7,6 @@ Use Canopy+K-Means algorithm
 
 ### Result:
 
-![](./assignment_1/asset/images/cluster_centers_example.png)
-
 ![](./assignment_1/asset/images/pca_scatter_plot_iteration_example.png)
+
+![](./assignment_1/asset/images/cluster_centers_example.png)
