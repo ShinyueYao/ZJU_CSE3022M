@@ -2,7 +2,7 @@
 
 ## 1. Quick Start
 ### 1.1 Prerequisite
-Make sure you have basic python environment on youe computer
+Make sure you have basic python environment on your computer
 
 Install Pytorch on [official website](https://pytorch.org/)
 
