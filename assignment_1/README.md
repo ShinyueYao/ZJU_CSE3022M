@@ -60,7 +60,7 @@ The step of this canopy algorithm is:
 ![](./asset/images/canopy.png)
 
 ---
-Then, we can use canopy to roughly select $k$ cluster centers as the initial centers in K-Means.
+Then, we can use canopy to roughly select $k$ cluster centers as the initial centers in K-Means, which is easy to achieve.
 
 ## 3. Reference
 [[1]Yuan, C.; Yang, H. Research on K-Value Selection Method of K-Means Clustering Algorithm. J 2019, 2, 226-235. https://doi.org/10.3390/j2020016 ](https://www.mdpi.com/2571-8800/2/2/16)
