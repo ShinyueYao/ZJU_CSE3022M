@@ -7,8 +7,8 @@ def main():
 
     # Load the MNIST dataset
     train_data = load_mnist_data()
-    # Sample images from the dataset, 250 per class
-    points = sample_images(train_data, samples_per_class=250) 
+    # Sample images from the dataset, 300 per class
+    points = sample_images(train_data, samples_per_class=300) 
 
     # Initialize Canopy algorithm
     canopy = Canopy(t1=22.5, t2=12)
