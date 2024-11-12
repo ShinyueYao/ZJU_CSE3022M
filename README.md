@@ -16,5 +16,5 @@ Implement BP and visualize the loss during training
 
 ### Result:
 
-![](./assignment_2/asset/image/network_structure.jpg)
-![](./assignment_2/asset/image/loss_epoch_10.png)
+![](./assignment_2/asset/images/network_structure.jpg)
+![](./assignment_2/asset/images/loss_epoch_10.png)
