@@ -1,0 +1,14 @@
+name: bp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.26.0
+  - pytorch=2.1.0  # Or the latest compatible version
+  - torchvision=0.15.0  # Or the latest compatible version
+  - matplotlib
+  - tqdm
+  - pip:
+      - torchmetrics
