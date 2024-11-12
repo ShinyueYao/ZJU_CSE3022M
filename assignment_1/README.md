@@ -2,7 +2,7 @@
 
 ## 1. Quick Start
 ### 1.1 Prerequisite
-Make sure you have basic python environment on youe computer
+Make sure you have basic python environment on your computer
 
 Install Pytorch on [official website](https://pytorch.org/)
 
@@ -10,7 +10,7 @@ Install Pytorch on [official website](https://pytorch.org/)
 ```shell
 cd assignment_1
 
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 1.3 Run the code
@@ -60,7 +60,8 @@ The step of this canopy algorithm is:
 ![](./asset/images/canopy.png)
 
 ---
-Then, we can use canopy to roughly select $k$ cluster centers as the initial centers in K-Means.
+Then, we can use canopy to roughly select $k$ cluster centers as the initial centers in K-Means, which can be easily achieved.
 
 ## 3. Reference
 [[1]Yuan, C.; Yang, H. Research on K-Value Selection Method of K-Means Clustering Algorithm. J 2019, 2, 226-235. https://doi.org/10.3390/j2020016 ](https://www.mdpi.com/2571-8800/2/2/16)
+
